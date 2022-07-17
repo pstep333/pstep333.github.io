@@ -1,0 +1,85 @@
+body {
+    font-family: "Fira Code", sans-serif;
+    font-size: 16px;
+    color: #3f3f46;
+
+}
+
+h1, h2, h3 {
+    color: #27272a;
+}
+
+/* Header and Breadcrumbs (ul/li) */
+
+header {
+    background: linear-gradient(#ddd, #fff);
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #3f3f46;
+    align-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+  
+li {
+    border: 2px solid #3f3f46;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+
+/* Main Body Section */
+
+.about_me {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.about_me_txt {
+    justify-items: center;
+    
+    width: 100%;
+}
+
+.figure {
+    display: block;
+}
+
+.projects_container {
+
+}
+
+/* Footer */
+
+footer {
+    background-color: #1d5aa2;
+    color: #fff;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height:20px;
+    z-index: 2;
+    justify-content: center;
+    width: 100%;
+}
+
