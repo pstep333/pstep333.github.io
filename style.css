@@ -23,9 +23,7 @@ header {
 }
 
 .logo {
-    
     padding: 0.5rem 1.5rem;
-    border: 2px solid #3f3f46;
     align-content: center;
 }
 
@@ -36,10 +34,8 @@ ul {
   }
   
 li {
-    border: 2px solid #3f3f46;
     padding: 0.5rem 1.5rem;
     margin-right: 1.5rem;
-    display: inline-block;
 }
 
 /* Main Body Section */
@@ -57,16 +53,62 @@ li {
 
 .about_me_txt {
     justify-items: center;
-    
+    text-align: center;
     width: 100%;
 }
 
-.figure {
+.about_me_pic {
     display: block;
+    width: 30%;
+    margin: auto;
+    height:auto;
+}
+
+.about_me_pic img {
+    width: 100%;
+}
+
+.featured_projects {
+    text-align: center;
 }
 
 .projects_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
+figure {
+    display: block;
+    justify-items: center;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+}
+
+figure h3 {
+    text-align: center;
+}
+
+.project_data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.proj_data {
+    display: block;
+    width: 100%;
+    text-align:center;
+    margin-bottom: 50px;
 }
 
 /* Footer */
