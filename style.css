@@ -82,7 +82,8 @@ li {
 }
 
 figure {
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
 }
 
@@ -97,18 +98,18 @@ figure h3 {
 
 .project_data {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .proj_data {
     display: block;
     width: 100%;
     text-align:center;
-    margin-bottom: 50px;
 }
 
 /* Footer */
